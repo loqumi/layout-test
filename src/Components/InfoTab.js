@@ -27,9 +27,9 @@ const InfoTab = () => {
 				<tr><th className="table-header">ВНУТРЕННИЕ ПАСПОРТА</th></tr>
 				</thead>
 				<tbody>
-				<tr><td><p><a className='custom-link' href="#">Гудимов Павел Александрович, 18.07.1981 г.р.</a></p></td></tr>
-				<tr><td><p><a className='custom-link' href="#">Гудимов Павел Александрович, 18.07.1981 г.р.</a></p></td></tr>
-				<tr><td><p><a className='custom-link' href="#">Гудимов Павел Александрович, 18.07.1981 г.р.</a></p></td></tr>
+				<tr><td className='custom-link'><p><a href="#">Гудимов Павел Александрович, 18.07.1981 г.р.</a></p></td></tr>
+				<tr><td className='custom-link'><p><a href="#">Гудимов Павел Александрович, 18.07.1981 г.р.</a></p></td></tr>
+				<tr><td className='custom-link'><p><a href="#">Гудимов Павел Александрович, 18.07.1981 г.р.</a></p></td></tr>
 				</tbody>
 			</table>
 		</div>

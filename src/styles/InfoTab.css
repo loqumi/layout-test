@@ -8,8 +8,13 @@
     }
 
     p a {
+        transition: 0.3s ease;
         text-decoration: none;
         color: #ff6838;
+    }
+
+    p a:hover {
+        color: #87878C;
     }
 
     .grey-text {
@@ -39,9 +44,21 @@
 }
 
 .custom-link {
-    font-size: 12px;
-    text-decoration: none;
-    color: #ff6838;
+    p {
+        margin: 0;
+    }
+
+    p a {
+        transition: 0.3s ease;
+        font-size: 12px;
+        text-decoration: none;
+        color: #ff6838;
+    }
+
+    p a:hover {
+        color: #87878C;
+
+    }
 }
 
 .data-table {
@@ -49,6 +66,7 @@
     border-collapse: collapse;
     margin-bottom: 32px;
 }
+
 .table-header {
     font-size: 10px;
     font-weight: 400;
