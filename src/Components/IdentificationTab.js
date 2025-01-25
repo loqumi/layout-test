@@ -10,7 +10,9 @@ const IdentificationTab = () => {
 			<div className="individual-record">
 				<table className="data-table">
 					<thead>
-					<tr><th className="table-header">ОБЪЕКТ № 1  ⁄  2021</th></tr>
+					<tr>
+						<th className="table-header">ОБЪЕКТ № 1 ⁄ 2021</th>
+					</tr>
 					</thead>
 					<tbody>
 					<tr>
@@ -29,8 +31,8 @@ const IdentificationTab = () => {
 						<td className="info-section">
 							<p>Транспортные средства</p>
 							<div className="additional-info">
-								<p className='calendar'><img src={IconCalendar} alt={'calendar'} />2021</p>
-								<p>ДРУГАЯ МАРКА TOYOTA CROWN ГРЗ А111НХ125</p>
+								<p className='calendar'><img src={IconCalendar} alt={'calendar'}/>2021</p>
+								<p>ДРУГАЯ МАРКА TOYOTA CROWN ГРЗ А111НХ125</p>
 								<p className='grey-text'>СТС 235234634673476</p>
 							</div>
 						</td>
@@ -47,7 +49,9 @@ const IdentificationTab = () => {
 			<div className="individual-record">
 				<table className="data-table">
 					<thead>
-					<tr><th className="table-header">ОБЪЕКТ № 2  ⁄  2021</th></tr>
+					<tr>
+						<th className="table-header">ОБЪЕКТ № 2 ⁄ 2021</th>
+					</tr>
 					</thead>
 					<tbody>
 					<tr>
@@ -66,8 +70,8 @@ const IdentificationTab = () => {
 						<td className="info-section">
 							<p>Транспортные средства</p>
 							<div className="additional-info">
-								<p className='calendar'><img src={IconCalendar} alt={'calendar'} />2021</p>
-								<p>ДРУГАЯ МАРКА TOYOTA CROWN ГРЗ А111НХ125</p>
+								<p className='calendar'><img src={IconCalendar} alt={'calendar'}/>2021</p>
+								<p>ДРУГАЯ МАРКА TOYOTA CROWN ГРЗ А111НХ125</p>
 								<p className='grey-text'>СТС 235234634673476</p>
 							</div>
 						</td>
