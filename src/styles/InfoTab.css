@@ -37,7 +37,7 @@
             width: fit-content;
             padding: 1px 8px;
 
-            img {
+            svg {
                 padding-right: 2px;
             }
         }
