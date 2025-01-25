@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
 
-    img {
+    svg {
         padding-right: 4px;
     }
 }
