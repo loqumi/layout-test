@@ -8,6 +8,8 @@
 }
 
 .back-link {
+    transition: .3s ease;
+    cursor: pointer;
     color: #ff6838;
     text-align: center;
     display: flex;
@@ -17,12 +19,22 @@
     font-size: 12px;
     text-decoration: none;
 
-    img {
+    svg {
         padding-right: 8px;
     }
 }
 
+.back-link:hover {
+    color: #87878C;
+
+    .icon {
+        transition: .3s ease;
+        stroke: #87878C;
+    }
+}
+
 .download-button {
+    transition: .3s ease;
     background: #fff;
     color: #87878C;
     border: 1px #87878C solid;
@@ -39,6 +51,10 @@
     img {
         padding-right: 4px;
     }
+}
+
+.download-button:hover {
+    opacity: 0.8;
 }
 
 .request-info {
