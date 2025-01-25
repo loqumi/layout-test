@@ -7,8 +7,7 @@ const LinkGoBack = ({isVisible, setIsSidebarVisible}) => {
 				<path className="icon" d="M10 13L5 8L10 3" stroke="#E7682A" strokeLinecap="round"
 					  strokeLinejoin="round"/>
 			</svg>
-
-			Вернуться к отчетам
+			<p>Вернуться к отчетам</p>
 		</a>
 	)
 }

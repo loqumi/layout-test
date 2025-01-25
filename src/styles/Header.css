@@ -5,6 +5,14 @@
     background-color: #ffffff;
     padding: 16px;
     border-bottom: 1px solid #e5e5e5;
+
+    @media (max-width: 768px) {
+        .back-link {
+            p {
+                display: none;
+            }
+        }
+    }
 }
 
 .back-link {
@@ -21,6 +29,10 @@
 
     svg {
         padding-right: 8px;
+    }
+
+    p {
+        margin: 0;
     }
 }
 

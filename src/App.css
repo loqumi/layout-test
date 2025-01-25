@@ -9,6 +9,7 @@
 }
 
 .content-container {
+    min-height: 70dvh;
     display: flex;
     justify-content: space-between;
 }
